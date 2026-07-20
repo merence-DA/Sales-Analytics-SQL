@@ -21,3 +21,8 @@ This repository contains a comprehensive collection of SQL scripts, queries, and
 | **`marketing_performance_analysis.sql`** | End-to-end SQL case study analyzing marketing performance metrics, conversion rates, and ROI. |
 
 ---
+### 💼 End-to-End SQL Case Studies
+
+| Case Study File | Description & Concepts Used |
+| :--- | :--- |
+| **`user_activity_email_performance_case.sql`** | **Comprehensive User & Email Activity Analysis:** <br>• Built a unified dataset merging user account metrics and email interaction metrics (sent, opened, clicked) using `UNION ALL` to prevent granularity conflicts. <br>• Applied multi-level `CTE`s for modular logic and complex data aggregation. <br>• Used Window Functions (`SUM() OVER`, `DENSE_RANK() OVER`) to calculate total country-level performance and rank top 10 markets. <br>• Prepared data structure for Looker Studio visualization. |
